@@ -4,6 +4,6 @@ plugins {
 
 rootProject.name = "gradle-sample-8.x-dv"
 
-develocity {
+gradleEnterprise {
   server = "https://ge.solutions-team.gradle.com"
 }
