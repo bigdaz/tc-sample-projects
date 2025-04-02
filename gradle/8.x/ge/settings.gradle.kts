@@ -6,4 +6,7 @@ rootProject.name = "gradle-sample-8.x-dv"
 
 gradleEnterprise {
   server = "https://ge.solutions-team.gradle.com"
+  buildScan {
+    publishAlways()
+  }
 }
